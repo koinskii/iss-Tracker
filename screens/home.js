@@ -1,0 +1,19 @@
+import React from "react";
+import {View, TouchiableOpacity, TextInput, Text, StyleSheet, Alert } from "react-native"
+
+export default class home extends React.Component {
+    constructor(props){
+        super(props)
+        this.state ={
+        }
+    }
+
+    render() {
+        return (
+            <View>
+                <Text>home</Text>
+            </View>
+        )
+    }
+
+}
